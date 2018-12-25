@@ -1,0 +1,228 @@
+body {
+    font-size: 0.12rem;
+}
+.wraper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+
+.header {
+    color: #fff;
+    text-align: center;
+    height: 44px;
+    background-color: #099fde;
+    flex-shrink: 0;
+}
+
+.content {
+    -webkit-flex: 1;
+    position: relative;
+}
+.footer{
+    width: 100%;
+    height: 44px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+}
+.carousel-list{
+    display: flex;
+    width: 100%;
+    height: 171px;
+    padding: 10px;
+    flex-wrap: wrap;  
+    overflow: hidden;
+    text-align: center;
+}
+.carousel-list dl{
+    width: 20%;
+
+}
+.carousel-list dl dt{
+    width: 60px;
+    height: 60px;
+}
+.carousel-list dl dt img{
+    width: 100%;
+    height: 100%;
+}
+.shop-list{
+    width: 100%;
+}
+.shop-title {
+   padding: 10px;
+}
+.shop-list dl{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  padding: 10px;
+  margin-top: 10px;
+}
+.shop-list dl dt{
+    width: 80px;
+    height: 80px;
+}
+.shop-list dl dt img{
+    width: 100%;
+    height: 100%;
+}
+.shop-list dl dd{
+    line-height: 25px;
+    margin-left: 10px;
+}
+.deatil-list{
+    width: 100%;
+    height: auto;
+}
+.deatil-header{
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+}
+.deatil-header dl{
+    display: flex;
+}
+.deatil-header dl dt{
+    width: 80px;
+    height: 80px;
+}
+.deatil-header dl dt img{
+    width: 100%;
+    height: 100%;
+}
+.deatil-nav{
+    width: 80%;
+    height: 45px;
+    display: flex;
+    margin: auto;
+}
+.deatil-nav ul{
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+.deatil-nav a{
+    flex: 1;
+    line-height: 45px;
+}
+.dity{
+    width: 100%;
+    display: flex;
+}
+.dity-left{
+    width: 100px;
+}
+.dity-left ul li{
+    overflow: hidden;
+    padding: 10px;
+}
+.dity-right{
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+}
+.right-header{
+  width: 100%;
+  height: 40px;
+  background-color: #eee;
+}
+.right-header strong{
+    font-size: 16px;
+}
+
+.right-list{
+    width: 100%;
+    height: auto;
+}
+.look{
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.right-list dl{
+    display: flex;
+}
+.right-list dl dt{
+    width: 60px;
+    height: 60px;
+}
+.right-list dl dt img{
+    width: 100%;
+    height: 100%;
+}
+.right-list dl dd{
+    width: 100%;
+    position: relative;
+}
+.join{
+    width:80px;
+    height: 20px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: #099fde;
+
+}
+.order{
+    width: 100%;
+
+}
+.order dl{
+    display: flex;
+    padding: 10px;
+}
+.order dl dt{
+    width: 60px;
+    height: 60px;
+}
+.order dl dt img{
+    width: 100%;
+    height: 100%;
+}
+.order dl dd {
+    width: 100%;
+    margin-left: 1px;
+    line-height: 25px;
+    position: relative;
+}
+.diss{
+    width: 80px;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.diss button{
+    width: 20px;
+    height: 20px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    border:1px solid #ccc;
+    line-height: 20px;
+}
+.diss span{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer ul{
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+.footer ul a {
+    flex: 1;
+    line-height: 45px;
+}
+.active{  
+    color: #099fde;
+}
